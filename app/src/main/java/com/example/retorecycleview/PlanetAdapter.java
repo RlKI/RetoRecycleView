@@ -40,7 +40,7 @@ public class PlanetAdapter extends RecyclerView.Adapter <PlanetViewHolder> {
         Planet planetTmp = listPlanets.get(i);
 
         TextView nameTV = viewHolder.name;
-        nameTV.setText("Planet: "+planetTmp.name);
+        nameTV.setText(planetTmp.name);
 
         TextView populationTV = viewHolder.population;
         populationTV.setText("Population: "+planetTmp.population);
