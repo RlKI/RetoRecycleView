@@ -40,22 +40,22 @@ public class PlanetAdapter extends RecyclerView.Adapter <PlanetViewHolder> {
         Planet planetTmp = listPlanets.get(i);
 
         TextView nameTV = viewHolder.name;
-        nameTV.setText(planetTmp.name);
+        nameTV.setText("Planet: "+planetTmp.name);
 
         TextView populationTV = viewHolder.population;
-        populationTV.setText(planetTmp.population);
+        populationTV.setText("Population: "+planetTmp.population);
 
         TextView orbital_periodTV = viewHolder.orbital_period;
-        orbital_periodTV.setText(planetTmp.orbital_period);
+        orbital_periodTV.setText("Orbit Period: "+planetTmp.orbital_period);
 
         TextView rotation_periodTV = viewHolder.rotation_period;
-        rotation_periodTV.setText(planetTmp.rotation_period);
+        rotation_periodTV.setText("Rotation Period: "+planetTmp.rotation_period);
 
         TextView diameterTV = viewHolder.diameter;
-        diameterTV.setText(planetTmp.diameter);
+        diameterTV.setText("Diameter: "+planetTmp.diameter);
 
         TextView climateTV = viewHolder.climate;
-        climateTV.setText(planetTmp.climate);
+        climateTV.setText("Climate: "+planetTmp.climate);
 
     }
 
